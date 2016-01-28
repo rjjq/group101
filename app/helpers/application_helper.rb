@@ -1,6 +1,6 @@
 module ApplicationHelper
   def notice_message
-    alert_types = { notice: :success, alert: :danger }
+    alert_types = { notice: :success, alert: :danger , warning: :warning}
 
     close_button_options = { :class => "close" , "data-dismiss" => "alert", "aria-hidden" => true }
     close_button = content_tag(:button, "x", close_button_options)
