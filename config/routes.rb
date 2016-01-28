@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
+  
   resources :groups do
     member do
       post :join
@@ -8,6 +9,12 @@ Rails.application.routes.draw do
 
     resources :posts
   end
+
+  namespace :account do
+    resources :groups
+    resources :posts
+  end
+
   root 'groups#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
