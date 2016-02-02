@@ -1,0 +1,15 @@
+D, [2016-02-03T00:54:40.718568 #58838] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (1.7ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+I, [2016-02-03T00:55:31.042407 #59056]  INFO -- : Started GET "/" for 192.168.101.1 at 2016-02-03 00:55:31 +0800
+I, [2016-02-03T00:55:31.054746 #59056]  INFO -- : Processing by GroupsController#index as HTML
+D, [2016-02-03T00:55:31.073321 #59056] DEBUG -- :   [1m[36mGroup Load (0.2ms)[0m  [1mSELECT `groups`.* FROM `groups`[0m
+I, [2016-02-03T00:55:31.090161 #59056]  INFO -- :   Rendered groups/index.html.erb within layouts/application (19.6ms)
+I, [2016-02-03T00:55:31.093126 #59056]  INFO -- :   Rendered common/_navbar.html.erb (0.4ms)
+I, [2016-02-03T00:55:31.094182 #59056]  INFO -- :   Rendered common/_footer.html.erb (0.3ms)
+I, [2016-02-03T00:55:31.094656 #59056]  INFO -- : Completed 200 OK in 40ms (Views: 24.8ms | ActiveRecord: 1.4ms)
+I, [2016-02-03T00:55:33.414539 #59056]  INFO -- : Started GET "/" for 192.168.101.1 at 2016-02-03 00:55:33 +0800
+I, [2016-02-03T00:55:33.415612 #59056]  INFO -- : Processing by GroupsController#index as HTML
+D, [2016-02-03T00:55:33.418613 #59056] DEBUG -- :   [1m[35mGroup Load (0.2ms)[0m  SELECT `groups`.* FROM `groups`
+I, [2016-02-03T00:55:33.419292 #59056]  INFO -- :   Rendered groups/index.html.erb within layouts/application (2.1ms)
+I, [2016-02-03T00:55:33.421144 #59056]  INFO -- :   Rendered common/_navbar.html.erb (0.4ms)
+I, [2016-02-03T00:55:33.422293 #59056]  INFO -- :   Rendered common/_footer.html.erb (0.3ms)
+I, [2016-02-03T00:55:33.422584 #59056]  INFO -- : Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.2ms)
