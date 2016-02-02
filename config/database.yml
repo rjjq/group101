@@ -21,5 +21,12 @@ test:
   database: db/test.sqlite3
 
 production:
-  <<: *default
-  database: db/production.sqlite3
+  adapter: mysql2
+  encoding: utf8
+  database: group101 
+  pool: 5 
+  username: root 
+  password: "aj1020" 
+  socket: /var/run/mysqld/mysqld.sock
+  #<<: *default
+  #database: db/production.sqlite3
